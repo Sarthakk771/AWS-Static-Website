@@ -39,6 +39,15 @@ The S3 bucket is configured to host the static website and serve the HTML, CSS, 
 
 ```text
 AWS-Static-Website/
+├── architecture/
+│   └── Archi_diagram.png
+├── screenshots/
+│   ├── 01-bucket-created.png
+│   ├── 02-files-uploaded.png
+│   ├── 03-static-website-hosting.png
+│   ├── 04-bucket-policy.png
+│   ├── 05-static-enabled.png
+│   └── 06-working-website.png
 ├── index.html
 ├── style.css
 ├── script.js
@@ -164,10 +173,14 @@ The project source code and documentation will also be uploaded to a GitHub repo
 The GitHub repository will contain:
 
 ```text
-index.html
-style.css
-script.js
-README.md
+The GitHub repository contains:
+
+- HTML, CSS and JavaScript source files
+- AWS architecture diagram
+- AWS configuration and deployment screenshots
+- Project documentation
+
+GitHub is used for source-code and documentation storage. Amazon S3 is used for the actual cloud website hosting.
 ```
 
 GitHub is used for source-code and documentation storage. Amazon S3 is used for the actual cloud website hosting.
